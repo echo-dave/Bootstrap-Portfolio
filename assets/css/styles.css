@@ -68,7 +68,7 @@ nav.hMenu li:first-of-type {border: none;}
 nav.hMenu li:last-of-type {padding-right:0em;}
 
 nav.hMenu li:nth-child(1) {width: 3.5em;}
-nav.hMenu li:nth-child(2) {width: 4.5em;}
+nav.hMenu li:nth-child(2) {width: 4.5em;padding-left:.15em;}
 nav.hMenu li:nth-child(3) {width: 4.5em;}
 
 
@@ -93,9 +93,19 @@ section h2::after {
     left: 0;
 }
 
+
+
 .container, .row, .col, .container-fluid {
     margin:0em;
     padding:0em;
+}
+
+.btn-primary {
+    background-color:#4aaaa5;
+}
+
+.form-group label {
+    margin-top:1.5em;
 }
 
 /*.container {
