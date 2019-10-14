@@ -37,7 +37,9 @@ nav.hMenu{
     float: right;
     margin-left:auto;
     margin-right:auto;
-    padding-right:1em;
+    /*padding-right:1em;*/
+    position: relative;
+    right:0em;
 }
 
 nav.hMenu a {
@@ -51,23 +53,24 @@ nav.hMenu ul {
 }
 
 nav.hMenu li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    padding-left: .5em;
-    padding-right: .5em;
+ /*   padding-left: .5em;
+    padding-right: .5em;*/
     font-size: 1.5em;
-    border-left-width: .1em; 
-    border-left-style: solid;
-    border-left-color: #dcdcdc;
+    /*border-left-width: .1em; */
+    border-left-style: dotted;
+    border-left-color: #dcdcdcb9;
+    text-align: center;
 }
 
-nav.hMenu li:first-of-type {
-border: none;
-}
+nav.hMenu li:first-of-type {border: none;}
+nav.hMenu li:last-of-type {padding-right:0em;}
 
-nav.hMenu li:last-of-type {
-    padding-right: 0;
-}
+nav.hMenu li:nth-child(1) {width: 3.5em;}
+nav.hMenu li:nth-child(2) {width: 4.5em;}
+nav.hMenu li:nth-child(3) {width: 4.5em;}
+
 
 .currentPage {
     color: #77a19f;
@@ -112,6 +115,7 @@ section h2::after {
         margin: .5em;
         padding: .3em;
         text-align: center;
+        position: static;
     }
     nav.hMenu > ul {
         margin:0;
