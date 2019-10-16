@@ -5,4 +5,4 @@ I opted to maintain a full width portfolio page given the nture of the conent. I
 
 [Basic portfolio without bootstrap](https://echo-dave.github.io/Basic-Portfolio/index.html)
 
-[Bootstrap written portfolio](https://github.com/echo-dave/Bootstrap-Portfolio)
+[Bootstrap written portfolio](https://echo-dave.github.io/Bootstrap-Portfolio/)
