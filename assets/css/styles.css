@@ -13,6 +13,7 @@ header{
     max-width: 60em !important;
 /*    margin: 0 auto 6em;
     padding: 0 2.5em;*/
+    margin-bottom: 4.5em;
 }
 
 .headerWrap {
@@ -71,11 +72,12 @@ nav.hMenu li:nth-child(1) {width: 3.5em;}
 nav.hMenu li:nth-child(2) {width: 4.5em;padding-left:.15em;}
 nav.hMenu li:nth-child(3) {width: 4.5em;}
 
-
 .currentPage {
     color: #77a19f;
     font-weight: 700;
 }
+
+ 
 
 h2 {
     color: #4aaaa5;
@@ -93,7 +95,12 @@ section h2::after {
     left: 0;
 }
 
+.imgThumb img {
+    width: 100%;
 
+}
+
+/* Bootstrap related */
 
 .container, .row, .col, .container-fluid {
     margin:0em;
@@ -106,6 +113,13 @@ section h2::after {
 
 .form-group label {
     margin-top:1.5em;
+}
+
+/* mx-3 px-3 pt-2 mt-3 mx-md-3 */
+
+.galleryThumbSpacing {
+    margin: 1em 0em 0;
+    padding: .5em 1em 0;
 }
 
 /*.container {
