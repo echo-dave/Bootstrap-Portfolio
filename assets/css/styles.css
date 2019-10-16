@@ -1,5 +1,26 @@
 body {background-color:#eee; margin: 0; padding: 0; color: #777777; min-height: 100vh;}
 
+/* branding color */
+h1.title, .imgThumb p { color: #fff; background: #4aaaa5;}
+h2 { color: #4aaaa5;}
+.currentPage { color: #77a19f;}
+
+/* Bootstrap related */
+
+.container, .row, .col, .container-fluid {
+    margin:0em;
+    padding:0em;
+}
+
+.btn-primary {
+    background-color:#4aaaa5;
+}
+
+.form-group label {
+    margin-top:1.5em;
+}
+/* end bootstrap adjustments */
+
 header{
     width:100%;
     background-color: #ffffff;
@@ -24,8 +45,6 @@ header{
 }
 
 h1.title {
-    color: #fff;
-    background-color: #4aaaa5;
     display: inline-block;
     padding: .3em .5em; 
     /*position: relative;
@@ -73,14 +92,14 @@ nav.hMenu li:nth-child(2) {width: 4.5em;padding-left:.15em;}
 nav.hMenu li:nth-child(3) {width: 4.5em;}
 
 .currentPage {
-    color: #77a19f;
     font-weight: 700;
 }
 
- 
+.h2Wrap {
+    margin-bottom: 2em;
+}
 
 h2 {
-    color: #4aaaa5;
     position: relative;
     margin-bottom: 1em;
 }
@@ -100,26 +119,19 @@ section h2::after {
 
 }
 
-/* Bootstrap related */
-
-.container, .row, .col, .container-fluid {
-    margin:0em;
-    padding:0em;
-}
-
-.btn-primary {
-    background-color:#4aaaa5;
-}
-
-.form-group label {
-    margin-top:1.5em;
-}
 
 /* mx-3 px-3 pt-2 mt-3 mx-md-3 */
 
 .galleryThumbSpacing {
-    margin: 1em 0em 0;
-    padding: .5em 1em 0;
+    margin: -1.5em 0em 0;
+    padding: 0em 1em 0;
+}
+
+.imgThumb p {
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top: -3rem;
 }
 
 /*.container {
